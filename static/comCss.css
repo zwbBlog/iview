@@ -1,0 +1,77 @@
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.left {
+    width: 15%;
+    height: 100%;
+}
+
+.right {
+    width: 83%;
+    height: 100%;
+}
+
+.one {
+    line-height: 28px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-indent: 0.5em;
+}
+
+.one>i {
+    margin-right: 10px;
+}
+
+.two {
+    display: none;
+    cursor: pointer;
+    text-indent: 1.5em;
+}
+
+.two span {
+    margin-right: 10px;
+}
+
+.curBg {
+    background: rgba(44, 136, 202, 0.8);
+}
+
+#user,
+#data,
+#task,
+#door,
+#facility,
+#organization,
+#system {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.anchorBL {
+    display: none;
+}
+
+
+/* select下拉框样式 */
+
+.el-select .el-input {
+    width: 110px;
+}
+
+
+/* 门锁统计指示器样式 */
+
+.el-carousel__button {
+    background: red;
+    height: 5px;
+    border-radius: 2px;
+}
